@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Home page{%endblock%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for i in a %}
+    <p> Tasks are here</p>
+        {% if i == 'Task no 1' %}
+            <p>Ramirez go save city</p>
+        {% elif i == 'Task no 2' %}
+            <p>Go clean ur room</p>
+        {% else i == 'Task no 3' %}
+            <p>Parents: the laundry or get whoop a*s</p>
+    {% endif %}
+
+
+
+
+</body>
+</html>
